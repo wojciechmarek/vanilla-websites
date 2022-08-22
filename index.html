@@ -7,7 +7,20 @@
     <title>Vanilla Websites</title>
   </head>
   <body>
+    <ul>
+      <li>
+        <a href="#" onclick="onNavigate('/'); return false;">Home</a>
+      </li>
+      <li>
+        <a href="#" onclick="onNavigate('/about'); return false;">About</a>
+      </li>
+      <li>
+        <a href="#" onclick="onNavigate('/contact'); return false;">Contact</a>
+      </li>
+    </ul>
+    <button onclick="testButton()">Home</button>
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
+    <script type="module" src="/pages/pages.js"></script>
   </body>
 </html>
