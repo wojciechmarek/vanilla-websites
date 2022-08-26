@@ -3,10 +3,12 @@ import javascriptLogo from "./javascript.svg";
 import viteLogo from "/vite.svg";
 import { setupCounter } from "./counter.js";
 
+import {about, contact, home} from './pages/pages';
+
 const routes = {
-  "/": "Home",
-  "/about": "About",
-  "/contact": "Contact",
+  "/": home,
+  "/about": about,
+  "/contact": contact,
 };
 
 const appDiv = document.querySelector("#app");
